@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio Maptuhul Ihsan</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #111;
+            color: #ddd;
+            font-family: 'Fira Code', monospace;
+            line-height: 1.6;
+            max-width: 650px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1px dashed #555;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 1px solid #777;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .date {
+            color: #777;
+            font-size: 0.9em;
+            margin-right: 10px;
+        }
+
+        .tags-container {
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #222;
+            color: #81a1c1;
+            padding: 4px 8px;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            font-size: 0.8em;
+            border: 1px solid #444;
+            border-radius: 3px;
+        }
+
+        .status-active {
+            font-size: 0.8em;
+            color: #a3be8c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="section">
+        <h1>Muhamad Maptuhul Ihsan</h1>
+        <p>Software Engineer / Cloud Enthusiast</p>
+
+        <p>
+            Gemar mengeksplorasi teknologi baru. Fokus pada pengembangan Backend,
+            Cloud Infrastructure, dan Mobile Development.
+        </p>
+
+        <div class="tags-container">
+            <span class="tag">JavaScript ( Node.js )</span>
+            <span class="tag">Flutter</span>
+            <span class="tag">Linux System</span>
+            <span class="tag">AWS EC2</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projects & Playground</h2>
+
+        <p>
+            <span class="date">[Current]</span>
+            <strong>Remote Development Server</strong><br>
+            Infrastruktur pribadi di cloud (VPS). Terintegrasi dengan
+            Git, Docker, Nginx, serta <strong>Tailscale</strong> untuk akses jaringan privat yang aman.
+            <br>
+            <span class="status-active">● Status: Operational</span>
+        </p>
+
+        <p>
+            <span class="date">[2024]</span>
+            <strong>Automated Mobile Testing</strong><br>
+            Implementasi pengujian aplikasi Android otomatis menggunakan <strong>AWS Device Farm</strong>.
+            Menjalankan <em>instrumentation tests</em> pada berbagai perangkat nyata (real devices) di cloud
+            untuk memastikan kompatibilitas dan performa aplikasi.
+        </p>
+
+        <p>
+            <span class="date">[2025]</span>
+            <strong>IMoney - Finance App UI</strong><br>
+            Implementasi desain antarmuka (UI Slicing) ke dalam kode Flutter.
+            Fokus pada presisi visual (pixel-perfect) sesuai desain dan struktur widget yang modular.
+            <br>
+            <span style="font-size: 0.8em; color: #88c0d0;">● Status: Personal Project / Prototype</span>
+            <br><a href="https://github.com/MapIHS/Flutter-IMoney" style="font-size: 0.9em;">> Lihat Source Code</a>
+        </p>
+
+        <div style="margin-top: 30px; padding-top: 20px; border-top: 1px dashed #333;">
+            <p style="font-size: 0.9em; color: #888;">
+                Masih banyak skrip, dan proyek gagal lainnya.
+                <br>
+                <a href="https://github.com/MapIhs?tab=repositories" target="_blank">
+                    > ls -la ~/github_repositories
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Hubungi Saya</h2>
+        <p>
+            Email: <a href="mailto:contact@ihsn.dev">contact@ihsn.dev</a><br>
+            GitHub: <a href="https://github.com/MapIhs">github.com/MapIhs</a>
+        </p>
+    </div>
+
+</body>
+
+</html>
